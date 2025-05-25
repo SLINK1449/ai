@@ -5,7 +5,7 @@ import pandas as pd
 server = 'localhost.localdomain'
 database = 'TransformerNeuronDB'
 username = 'sa'
-password = 'brian04271208@'
+password = ''
 
 # optimize the connection string
 conn_str = (
