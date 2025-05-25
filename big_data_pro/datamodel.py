@@ -26,7 +26,7 @@ DB_CONFIG = {
     'server': 'localhost.localdomain',
     'database': 'TransformerNeuronDB',
     'username': 'sa',
-    'password': 'brian04271208@',
+    'password': '',
     'driver': '{ODBC Driver 17 for SQL Server}'
 }
 
