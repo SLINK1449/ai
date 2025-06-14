@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 50,
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true,
+                "trustServerCertificate": false
+            },
+            "previewLimit": 50,
+            "server": "localhost.localdomain",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "SQL server",
+            "username": "sa",
+            "database": "localhost.localdomain",
+            "password": "brian04271208@"
+        }
+    ]
+}
