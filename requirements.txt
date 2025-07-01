@@ -1,0 +1,21 @@
+pandas>=1.3.0
+pyodbc>=4.0.30
+wikipedia>=1.4.0
+duckduckgo_search>=5.0.0
+sentence-transformers>=2.2.0
+googletrans>=3.1.0a0
+torch>=2.0.0
+numpy>=1.20.0
+scikit-learn>=1.0.0
+SQLAlchemy>=1.4.0
+customtkinter>=5.2.0
+joblib>=1.1.0 # For saving/loading scaler and label_encoder
+PyInstaller>=5.0 # For packaging
+
+# Nota: tkinter usualmente es parte de la instalación estándar de Python.
+# Para PyTorch, esta es la versión CPU. Si se requiere GPU en el futuro,
+# se deberá instalar una versión diferente según las instrucciones de pytorch.org.
+# Asegúrese de tener los ODBC drivers para SQL Server instalados en su sistema.
+# En Linux: msodbcsql17 o msodbcsql18
+# En Windows: vienen con el sistema o se descargan de Microsoft
+# En macOS: msodbcsql17 o msodbcsql18 (instalados via Homebrew, por ejemplo)
